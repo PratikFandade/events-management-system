@@ -1,0 +1,20 @@
+{
+  "name": "entries-management-system",
+  "version": "1.0.0",
+  "description": "This is a MERN stack project which will help you keep track on attendance and attendees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./client/App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratikFandade/event-management-website.git"
+  },
+  "author": "Pratik Fandade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PratikFandade/event-management-website/issues"
+  },
+  "homepage": "https://github.com/PratikFandade/event-management-website#readme"
+}

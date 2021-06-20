@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Montserrat-Regular.ttf) format('tff');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format('tff');
+}
+
+:root {
+    --primary: #6C63FF !important;
+    --gray-dark: #161616 !important;
+}
+
+h1 {
+    font-family: 'Montserrat';
+}
+
+.App-dark {
+    font-family: 'Raleway';
+    background-color: #161616;
+    color: white;
+    min-height: 100vh;
+}
+
+nav {
+    font-family: 'Montserrat';
+}
+
+.bag-dark {
+    font-family: 'Montserrat';
+    background-color: #161616!important;
+    color: white !important;
+}
+
+.bag-dark {
+    font-family: 'Montserrat';
+    background-color: #161616!important;
+    color: white !important;
+}
+
+.logreg-forms {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #6C63FF !important;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75)
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6C63FF !important;
+    border-color: #6C63FF !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #5D54EF !important;
+    border-color: #5D53EF !important;
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #161616!important;
+    background-color: rgb(0,0,0,0.5) !important;
+}
+
+.dark {
+    background-color: #161616 !important;
+}
+
+
+.light {
+    background-color: #ffffff !important;
+}
+
+.App-light {
+    min-height: 100vh;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.mobile-nav-light {
+    justify-content: center;
+    background-color: #ffffff !important;
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+}
+
+.mobile-nav-light .nav-link {
+    justify-content: center;
+    display: none !important;
+}
+
+.mobile-nav-light .nav-link p {
+    justify-content: center;
+    display: none !important;
+    margin: 0;
+}
+
+.mobile-nav-light a {
+    color: #000000 !important;
+}
+
+.mobile-nav-dark {
+    justify-content: center;
+    background-color: #161616 !important;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+
+.mobile-nav-dark .nav-link {
+    justify-content: center;
+    display: none !important;
+}
+
+.mobile-nav-dark .nav-link p {
+    justify-content: center;
+    display: none !important;
+    margin: 0;
+}
+
+.mobile-nav-dark a {
+    color: #ffffff !important;
+}
+
+#g {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@media screen and (max-width: 870px) {
+    nav .navbar-nav a {
+        display: none;
+    }
+    .mobile-nav-light .nav-link {
+        display: block !important;
+    }
+    .mobile-nav-light .nav-link p {
+        display: block !important;
+    }
+    .mobile-nav-dark .nav-link {
+        display: block !important;
+    }
+    .mobile-nav-dark .nav-link p {
+        display: block !important;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

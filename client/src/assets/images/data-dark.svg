@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="28" viewBox="0 0 22 28">
+  <g id="Fill" transform="translate(-5 -1)">
+    <path id="Path_1" data-name="Path 1" d="M24,3H20.82A3,3,0,0,0,18,1H14a3,3,0,0,0-2.82,2H8A3,3,0,0,0,5,6V26a3,3,0,0,0,3,3H24a3,3,0,0,0,3-3V6A3,3,0,0,0,24,3ZM13,4a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1V5H13ZM25,26a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1V6A1,1,0,0,1,8,5h3V7H21V5h3a1,1,0,0,1,1,1Z" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="10" height="2" transform="translate(11 15)" fill="#fff"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="5" height="2" transform="translate(11 19)" fill="#fff"/>
+  </g>
+</svg>

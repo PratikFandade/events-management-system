@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="26" viewBox="0 0 28 26">
+  <g id="Fill" transform="translate(-2 -2)">
+    <path id="Path_2" data-name="Path 2" d="M26,4V2H24V4H8V2H6V4H2V25a3,3,0,0,0,3,3H27a3,3,0,0,0,3-3V4Zm2,21a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V6H6V9H8V6H24V9h2V6h2Z" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M6,17h6V11H6Zm2-4h2v2H8Z" fill="#fff"/>
+    <path id="Path_4" data-name="Path 4" d="M13,17h6V11H13Zm2-4h2v2H15Z" fill="#fff"/>
+    <path id="Path_5" data-name="Path 5" d="M20,17h6V11H20Zm2-4h2v2H22Z" fill="#fff"/>
+    <path id="Path_6" data-name="Path 6" d="M6,24h6V18H6Zm2-4h2v2H8Z" fill="#fff"/>
+    <path id="Path_7" data-name="Path 7" d="M13,24h6V18H13Zm2-4h2v2H15Z" fill="#fff"/>
+  </g>
+</svg>
